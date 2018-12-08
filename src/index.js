@@ -5,7 +5,7 @@ import './main.css';
 const App = () => {
   return (
     <div>
-      <h1>Our Application Is Awake</h1>
+      <h1>Our Application Is Awake!</h1>
       <p>....</p>
     </div>
   );
