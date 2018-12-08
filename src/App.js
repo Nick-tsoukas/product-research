@@ -1,6 +1,9 @@
 import React from 'react';
 import { render } from 'react-dom'
-// import './App.css';
+
+// could have lifecycle events
+// State
+// UI
 
 class App extends Component {
   render() {
