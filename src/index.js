@@ -7,7 +7,7 @@ class App extends React.Component  {
   render(){
   return (
     <div>
-    <SayHi />
+    <SayHi name='Nick' petName="Jones" favNumbs={[10,99,55]} />
       <h1>Our Application Is Awake!</h1>
       <ul>
         {
