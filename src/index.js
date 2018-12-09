@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
-import SayHi from './SayHi';
+import SayHi from './components/SayHi';
 import './main.css';
 
 class App extends React.Component  {
