@@ -1,14 +1,25 @@
 import React from 'react';
 import { render } from 'react-dom';
+import SayHi from './SayHi';
 import './main.css';
 
-const App = () => {
+class App extends React.Component  {
+  render(){
   return (
     <div>
+    <SayHi />
       <h1>Our Application Is Awake!</h1>
-      <p>....</p>
+      <ul>
+        {
+          this.props.points.map((point)=> {
+            return <li>{point}</li>
+          })
+        }
+      </ul>
     </div>
+
   );
 }
+}
 
-render(<App />, document.getElementById('app'));
+render(<App points={['fast loading','great docs','javascript']} />, document.getElementById('app'));
